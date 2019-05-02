@@ -12,21 +12,20 @@ Once python is installed follow these steps or visit: https://kivy.org/doc/stabl
 
 1. Ensure you have the latest pip and wheel:
 
-  python -m pip install --upgrade pip wheel setuptools
+    python -m pip install --upgrade pip wheel setuptools
 
-Install the dependencies (skip gstreamer (~120MB) if not needed, see Kivy’s dependencies):
+2. Install the dependencies (skip gstreamer (~120MB) if not needed, see Kivy’s dependencies):
 
-  python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-  python -m pip install kivy.deps.gstreamer
+    python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+    python -m pip install kivy.deps.gstreamer
 Note:
 If you encounter a MemoryError while installing, add after pip install an option –no-cache-dir.
+3. For Python 3.5+, you can also use the angle backend instead of glew. This can be installed with:
 
-For Python 3.5+, you can also use the angle backend instead of glew. This can be installed with:
+    python -m pip install kivy.deps.angle
+4. Install kivy:
 
-  python -m pip install kivy.deps.angle
-Install kivy:
-
-  python -m pip install kivy
+    python -m pip install kivy
 
 You should be fully operational now!!!
 
