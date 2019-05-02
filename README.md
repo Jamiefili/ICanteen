@@ -17,6 +17,7 @@ Once python is installed follow these steps or visit: https://kivy.org/doc/stabl
 2. Install the dependencies (skip gstreamer (~120MB) if not needed, see Kivy’s dependencies):
 
     python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+    
     python -m pip install kivy.deps.gstreamer
     
 Note:
