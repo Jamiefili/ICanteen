@@ -1,9 +1,14 @@
 # ICanteen
 Install guide and User guide for ICanteen 
 
+
+
 /////////////////////////////////////////
 Install guide
 ////////////////////////////////////////
+
+
+
 The install guide has been made as simplistic as possible from the creators of kivi. This installation guide will be for windows 10 devices only. 
 
 First step is to install python 3.7.3 from: https://www.python.org/downloads/ 
